@@ -3,13 +3,13 @@
 
 ## Overview
 
-Repository as the name suggests contains, the variety of *Hadoop Ecosystem* framework components, keeping in mind the *naive data engineers* & *big data analytics students*. 
+Repository as the name suggests contains, the variety of *Hadoop Ecosystem* framework components, keeping in mind the *big data analytics students & and naive data engineers*. 
 
 Programming implementations are done using *java* and *python* (depends upon the ease of using the underlying framework component), by keeping in mind the aspect of *modularity* and *readability*.
 
 ## Usage
 
-The developed programs belong to a category of basic data structures like *array*, *stack* and *queue* etc. A few of them gives fair idea of some of the complex data structures (like *tree*, *graph*, *hashtable*, *dictionary* etc). 
+The developed programs belong to the hadoop ecosystem components like *hdfs*, *mapreduce*, *hbase*, and *spark* etc. A few of them gives fair idea of using different components (with the probable choice of languages like spark with pyspark or hbase with java API) depends upon the choice of operation and workload.
 
 Programs represent a control flow as:
 

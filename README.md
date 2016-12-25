@@ -39,7 +39,7 @@ For example, In *ProductStoreSalesAnalytics* project:
 
 I am progressing to add more informatory files (vig. *README*) regarding input and operations used in programs. 
 
-Programs are tested with datasets *reasonably close to real-world*, but can be subject to failure against *absolutly real-world datasets*. And hence are suitable specifically for learning/initial hands-on purpose (not for experts).
+Programs are tested with datasets *reasonably close to real-world*, but can be subject to failure against *absolutly real-world datasets*. And hence suitable for learning/initial hands-on purpose specifically (not for experts).
 
 
 *Waiting to hear feedback/concerns.*

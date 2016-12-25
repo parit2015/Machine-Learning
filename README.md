@@ -21,7 +21,7 @@ A few of them gives fair idea of using different components (with the probable c
 
 Programs are named to represent an intuitive understanding about themselves, and are kept in the related directories (Vig. *ProductStoreSalesAnalytics* contains program for *analytics of sales store/product wise*). Additionaly supplied InputFile helps verifying the output. 
 
-Detailed instruction for inputfile and program control flow is mentioned in the corresponding directory. Kindly read-through it for having help on underlying project, its input & output. 
+Detailed instructions for inputfile and program control flow is mentioned in the corresponding directory. Kindly read-through it for having help on underlying project, and related input/output. 
 
 For example, In *ProductStoreSalesAnalytics* project:
 
@@ -33,13 +33,13 @@ For example, In *ProductStoreSalesAnalytics* project:
     
     myMapReduceDriver.java [ DRIVER ] 
 
-**Note :** DRIVER file is subject to change, depends upon the MAPPER AND REDUCER to be executed.
+**Note :** *driver* file is subject to change, depends upon the *mapper* and *reducer* to be executed.
 
 ## Conclusion
 
 I am progressing to add more informatory files (vig. *README*) regarding input and operations used in programs. 
 
-Programs are tested with datasets reasonably close to real-world, but can be subject to failure on absolutly real-world dataset. And hence are suitable to give learning and initial hands-on to beginner (not the experts).
+Programs are tested with datasets *reasonably close to real-world*, but can be subject to failure against *absolutly real-world datasets*. And hence are suitable specifically for learning/initial hands-on purpose (not for experts).
 
 
 *Waiting to hear feedback/concerns.*

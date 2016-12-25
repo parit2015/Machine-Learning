@@ -25,6 +25,23 @@ Detailed instruction for inputfile and program control flow is mentioned in the 
 
 For example, In *ProductStoreSalesAnalytics* project:
 
+    Mappers:                                           Reducers:
+    _______________________________________________________________________________________
+    
+    SalesPerStoreMapper.java --------------------->    MaxSalesPerStoreReducer.java 
+                                   |                     
+                                   |-------------->    TotalSalesValueAllStoresReducer.java
+    
+    SalesPerProductMapper.java 
+    
+
+
+    MaxSalesPerStoreReducer.java 
+    TotalSalesPerProductReducer.java
+
+
+
+myMapReduceDriver.java 	Add files via upload 	3 days ago
 
 
 ## Conclusion

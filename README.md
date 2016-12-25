@@ -19,19 +19,13 @@ The developed programs belong to following category of hadoop ecosystem componen
 
 A few of them gives fair idea of using different components (with the probable choice of languages like spark with pyspark or hbase with java API) depends upon the choice of operation and workload.
 
-Programs are named to represent an intuitive understanding about themselves, and are kept in the related directories (Vig. *BST* contains program for *Binary-Search-Tree*). Additionaly supplied InputFile helps verifying the output. 
+Programs are named to represent an intuitive understanding about themselves, and are kept in the related directories (Vig. *ProductStoreSalesAnalytics* contains program for *analytics of sales store/product wise*). Additionaly supplied InputFile helps verifying the output. 
 
-For example, the *BST* directory contains the following files:
-                  
-    BST.h
-    BST.c
-    InputFile
+Detailed instruction for inputfile and program control flow is mentioned in the corresponding directory. Kindly read-through it for having help on underlying project, its input & output. 
 
-And Std instruction (unless mentioned otherwise) to run the above mentioned program (after compiling it using *gcc*) is as follows:
+For example, In *ProductStoreSalesAnalytics* project:
 
-    ./a.out InputFile
 
-**Note:** All programs except *spell-checker* are done tested successfully. There might be failure due to Big Input file (Scalability has not been tested yet).
 
 ## Conclusion
 

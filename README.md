@@ -9,12 +9,15 @@ Programming implementations are done using *java* and *python* (depends upon the
 
 ## Usage
 
-The developed programs belong to the hadoop ecosystem components like *hdfs*, *mapreduce*, *hbase*, and *spark* etc. A few of them gives fair idea of using different components (with the probable choice of languages like spark with pyspark or hbase with java API) depends upon the choice of operation and workload.
+The developed programs belong to following category of hadoop ecosystem components like:
 
-Programs represent a control flow as:
+> **Distributed file system and processing :** *hdfs* ( as dfs storage) and *mapreduce* (as dfs processing system, includes more like *pig*, *hive* etc)
 
-    Input file -> Parsing -> Applying chosen option -> Console output 
+> **NoSQL database :** *hbase* (using JAVA API)
 
+> **In-Memory dfs framework :** *spark* (RDD using pyspark). 
+
+A few of them gives fair idea of using different components (with the probable choice of languages like spark with pyspark or hbase with java API) depends upon the choice of operation and workload.
 
 Programs are named to represent an intuitive understanding about themselves, and are kept in the related directories (Vig. *BST* contains program for *Binary-Search-Tree*). Additionaly supplied InputFile helps verifying the output. 
 

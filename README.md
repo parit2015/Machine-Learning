@@ -15,7 +15,7 @@ The developed programs belong to following category of hadoop ecosystem componen
 
 > **NoSQL database :** *hbase* (using JAVA API)
 
-> **In-Memory dfs framework :** *spark* (RDD using pyspark). 
+> **In-Memory dfs framework :** *spark* (RDD using pyspark)
 
 A few of them gives fair idea of using different components (with the probable choice of languages like spark with pyspark or hbase with java API) depends upon the choice of operation and workload.
 
@@ -25,30 +25,21 @@ Detailed instruction for inputfile and program control flow is mentioned in the 
 
 For example, In *ProductStoreSalesAnalytics* project:
 
-    Mappers:                                           Reducers:
-    _______________________________________________________________________________________
+    SalesPerStoreMapper.java [ MAPPER ] ---> [ REDUCER ] MaxSalesPerStoreReducer.java             
+                                        ---> [ REDUCER ] TotalSalesValueAllStoresReducer.java
+                                        ---> [ REDUCER ] MaxSalesPerStoreReducer.java 
     
-    SalesPerStoreMapper.java --------------------->    MaxSalesPerStoreReducer.java 
-                                   |                     
-                                   |-------------->    TotalSalesValueAllStoresReducer.java
+    SalesPerProductMapper.java [ MAPPER ] -> [ REDUCER ] TotalSalesPerProductReducer.java
     
-    SalesPerProductMapper.java 
-    
+    myMapReduceDriver.java [ DRIVER ] 
 
-
-    MaxSalesPerStoreReducer.java 
-    TotalSalesPerProductReducer.java
-
-
-
-myMapReduceDriver.java 	Add files via upload 	3 days ago
-
+**Note :** DRIVER file is subject to change, depends upon the MAPPER AND REDUCER to be executed.
 
 ## Conclusion
 
 I am progressing to add more informatory files (vig. *README*) regarding input and operations used in programs. 
 
-Since these programs are tested with a small set of input, hence are not claimed to be run on a complex/compute intensive input. And mostly developed to give an early lessons for beginners.
+Programs are tested with datasets reasonably close to real-world, but can be subject to failure on absolutly real-world dataset. And hence are suitable to give learning and initial hands-on to beginner (not the experts).
 
 
 *Waiting to hear feedback/concerns.*

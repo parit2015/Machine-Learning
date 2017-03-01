@@ -8,11 +8,6 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-/*
- * This program takes input as air-temprature year wise in a flat file,
- * and gives output as maximum temprature per year 
- */
-
 /*This class is responsible for running map reduce job*/
 public class MusicShopDriver extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
@@ -20,8 +15,7 @@ public class MusicShopDriver extends Configured implements Tool {
 			System.err.println("Usage: MaxTemperatureDriver <input path> <outputpath>");
 			System.exit(-1);
 		}
-
- 
+		
 		Job job = new Job();
 	
 		job.setJarByClass(MusicShopDriver.class);

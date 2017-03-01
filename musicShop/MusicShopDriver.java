@@ -9,7 +9,7 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 /*
- * This program takes input as ar-temprature year wise in a flat file,
+ * This program takes input as air-temprature year wise in a flat file,
  * and gives output as maximum temprature per year 
  */
 

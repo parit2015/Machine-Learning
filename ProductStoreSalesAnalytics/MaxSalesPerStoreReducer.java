@@ -1,6 +1,5 @@
 import java.io.IOException;
 import java.text.DecimalFormat;
-
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;

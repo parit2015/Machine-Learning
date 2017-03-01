@@ -11,9 +11,12 @@ I have started as a beginner in this field, and are in ramp-up mode currently. I
 Though, I took programs from one of the references mentioned below, I put genuine effort in understanding the concepts and added useful comments/logs. Programs would definitly help a naive programmer or students in catching up things faster. and more interstingly to have an initial hands-on to this new world of Machine Learning.
 
 ## Usage
-Programs are mainly written using python's numpy, math and other related libraries. Since, programs are written specifically for basic understanding of concepts and techniques, hence are not claimed for any performance benchmarking exercises. 
+Programs are mainly written using python's numpy, math and other related libraries. 
 
 Programs are named such a way to give intuitive understanding about the used techniques. Additionally, README file is supplied for any specific set of commands.
+
+## Conclusion
+Since, programs are written specifically for basic understanding of concepts and techniques, hence are not claimed for any performance benchmarking exercises. 
 
 ## Referencs
 Brahim Chaibdraa 

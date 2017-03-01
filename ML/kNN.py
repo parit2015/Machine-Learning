@@ -5,10 +5,6 @@ def createDataSet():
     group = array([[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]])
     labels = ['A','A','B','B']
 
-    print "\ndataset(features) \t   labels(classes)\n"
-    print "===============================================\n"
-    print group, " \t \t ", labels, "\n\n"
-
     return group, labels
 
 def classify0(inX, dataSet, labels, k):

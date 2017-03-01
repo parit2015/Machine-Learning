@@ -1,4 +1,5 @@
 # Machine Learning
+Understanding different techniques with sample examples
 
 ## Overview
 Since last decade, we learnt analytic techniques to greater extent, and are able to gain strategical decisions help gaining the business to run in next level. Paradigm is now shifting more towords heuristics and predictions, leveraging our analytics skills.
@@ -10,16 +11,15 @@ I have started as a beginner in this field, and are in ramp-up mode currently. I
 Though, I took programs from one of the references mentioned below, I put genuine effort in understanding the concepts and added useful comments/logs. Programs would definitly help a naive programmer or students in catching up things faster. and more interstingly to have an initial hands-on to this new world of Machine Learning.
 
 ## Usage
+Programs are mainly written using python's numpy, math and other related libraries. Since, programs are written specifically for basic understanding of concepts and techniques, hence are not claimed for any performance benchmarking exercises. 
 
-In python shell, execute-
-
-    >>> import kNN
-    >>> group, labels = kNN.createDataSet()
-    >>> kNN.classify0([0,0], group, labels, 3)
+Programs are named such a way to give intuitive understanding about the used techniques. Additionally, README file is supplied for any specific set of commands.
 
 ## Referencs
-
 Brahim Chaibdraa 
 <chaib@iad.ift.ulaval.ca>
+
+
+Waiting to hear back.
 
 _Paritosh *( Parit )*

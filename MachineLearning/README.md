@@ -1,7 +1,11 @@
 # Machine Learning
-Since last decade, we learnt analytics to a great extent, and can able to run big analytics workload easily. Paradigm is now shifting more towords predictions, leveraging analytics infomation. Additionally, it required to have strong Statistical understanding, and supporting domain knowledge.
+Since last decade, we learnt analytics to greater extent, and are able to gain stratagical decision help gaing the business to run in another level. Paradigm is now shifting more towords heuristics and predictions, leveraging our analytics skills.
 
-I have started as beginner in this field, and are in ramp-up mode. I am utilizing my knowledge on Bigdata, and its programming aspect, my prior experience with pharma-data would probably help me in getting the things easily. Though I took all of my programs from one of references mentioned below, I put genuine effort in understanding the concepts and added useful comments are logs, which definitly would help a naive programmer or student in catching up things faster.
+Additionally, Machine Learning requires to have strong Statistical understanding, and supporting domain knowledge.
+
+I have started as a beginner in this field, and are in ramp-up mode currently. I am utilizing my knowledge on Bigdata, and skills on relevent programming aspects. My prior experience with pharma-data would probably help me in getting the things easily. 
+
+Though, I took all of my programs from one of references mentioned below, I put genuine effort in understanding the concepts and added useful comments/logs. Programs would definitly help a naive programmer or student in catching up things faster, and more interstingly to have an initial hands-on in this new world of Machine Learning.
 ## Overview
 
 ML

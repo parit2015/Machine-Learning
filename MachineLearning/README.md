@@ -13,7 +13,7 @@ Though, I took programs from one of the references mentioned below, I have put g
 ## Usage
 Programs are mainly written using *python's numpy*, *math* and other related libraries. 
 
-Programs are *named in such a way", to give *intuitive understanding* about the used techniques. Additionally, *README* file is supplied for any specific set of commands.
+Programs are *named in such a way*, to give *intuitive understanding* about the used techniques. Additionally, *README*  file is supplied for any specific set of commands.
 
 ## Conclusion
 Since, programs are written specifically for basic understanding of concepts and techniques, hence are not claimed for any performance benchmarking exercises. 

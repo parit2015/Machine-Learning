@@ -1,5 +1,5 @@
 # Machine Learning
-Since last decade, we learnt analytics to greater extent, and are able to gain stratagical decision help gaing the business to run in another level. Paradigm is now shifting more towords heuristics and predictions, leveraging our analytics skills.
+Since last decade, we learnt analytic techniques to greater extent, and are able to gain stratagical decision help gaing the business to run in another level. Paradigm is now shifting more towords heuristics and predictions, leveraging our analytics skills.
 
 Additionally, Machine Learning requires to have strong Statistical understanding, and supporting domain knowledge.
 

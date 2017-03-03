@@ -2,9 +2,11 @@
 > Understanding **different techniques** with sample examples
 
 ## Overview
-Since *last decade*, we learnt *analytic techniques* to greater extent, and are able to *gain strategical decisions* help gaining the *business to run in next level*. Paradigm is now shifting more *towords heuristics* and *predictions*, leveraging our analytics skills.
+Since *last decade*, we learnt *analytic techniques* to greater extent, and are able to *gain strategical decisions* help gaining the *business to run in next level*. Paradigm is now shifting more *towords heuristics* and *predictions*, leveraging our analytics skills. 
 
-Additionally, Machine Learning requires to have *strong Statistical understanding*, and *supporting domain knowledge*.
+Additionally, we are moving towards making *machines more intelligent*. With that, we are now capable of *training the machines*, to understand data & respective models/trends, then can be able to *run different techniques*(defends upon the dataset) to get *consumable insight/information* from/using that data. The above all mentioned stuff comes under Machine Learning scope. 
+
+Machine Learning subject seems to be little tricky to understand, but is very interesting for those who enjoy doing data manupulation. To start with this, one needs to be having some subject level understanding beforehand. some of the important things are, *understanding the data*, having atleaset reasonable understanding of *Statistics*, and to have hands-on in some *programming language*.
 
 I have started as a beginner in this field, and are in ramp-up mode currently. I am utilizing my *knowledge on Bigdata*, and *skills on relevent programming aspects*. My prior *experience with pharma-data* would probably help me in getting the things done easily. 
 

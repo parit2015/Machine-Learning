@@ -2,7 +2,7 @@
 > Understanding **different techniques** with sample examples
 
 ## Overview
-Since *last decade*, we learnt *analytic techniques* to greater extent, and are able to *gain strategical decisions* help gaining the *business to run in next level*. Paradigm is now shifting towords *heuristics* and *predictions*, leveraging our analytic skills. 
+Over the *last decade*, we learnt *analytic techniques* to greater extent, and are able to *gain strategical decisions* help gaining the *business to run in next level*. Paradigm is now shifting towords *heuristics* and *predictions*, leveraging our analytic skills. 
 
 Additionally, we are moving towards making *machines more intelligent*. With that, we now have capabilities to, *train the machines*, to understand data & respective models/trends, and hence to be able to *run different techniques* to get *consumable insight/information*. The above all mentioned stuff comes under Machine Learning scope. 
 

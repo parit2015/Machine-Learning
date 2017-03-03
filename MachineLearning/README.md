@@ -2,9 +2,9 @@
 > Understanding **different techniques** with sample examples
 
 ## Overview
-Since *last decade*, we learnt *analytic techniques* to greater extent, and are able to *gain strategical decisions* help gaining the *business to run in next level*. Paradigm is now shifting more *towords heuristics* and *predictions*, leveraging our analytic skills. 
+Since *last decade*, we learnt *analytic techniques* to greater extent, and are able to *gain strategical decisions* help gaining the *business to run in next level*. Paradigm is now shifting towords *heuristics* and *predictions*, leveraging our analytic skills. 
 
-Additionally, we are moving towards making *machines more intelligent*. With that, we are now capable of *training the machines*, to understand data & respective models/trends, then can be able to *run different techniques* to get *consumable insight/information*. The above all mentioned stuff comes under Machine Learning scope. 
+Additionally, we are moving towards making *machines more intelligent*. With that, we now have capabilities to, *train the machines*, to understand data & respective models/trends, and hence to be able to *run different techniques* to get *consumable insight/information*. The above all mentioned stuff comes under Machine Learning scope. 
 
 Machine Learning subject seems to be little tricky to understand, but is very interesting for those who enjoy doing data manipulation. To start with this, one needs to be having some subject level understanding beforehand, which mainly includes, *understanding of data*, concepts of *statistics*, and hands-on in *programming language* like *python* or *matlab* etc.
 

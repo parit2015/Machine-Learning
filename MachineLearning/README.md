@@ -6,7 +6,7 @@ Since *last decade*, we learnt *analytic techniques* to greater extent, and are 
 
 Additionally, we are moving towards making *machines more intelligent*. With that, we are now capable of *training the machines*, to understand data & respective models/trends, then can be able to *run different techniques* to get *consumable insight/information*. The above all mentioned stuff comes under Machine Learning scope. 
 
-Machine Learning subject seems to be little tricky to understand, but is very interesting for those who enjoy doing data manipulation. To start with this, one needs to be having some subject level understanding beforehand. some of the important things are, *understanding the data*, having atleaset reasonable understanding of *statistics*, and to have hands-on in some *programming language*.
+Machine Learning subject seems to be little tricky to understand, but is very interesting for those who enjoy doing data manipulation. To start with this, one needs to be having some subject level understanding beforehand, which mainly includes, *understanding of data*, concepts of *statistics*, and hands-on in *programming language* like *python* or *matlab* etc.
 
 I have started as a beginner in this field, and are in ramp-up mode currently. I am utilizing my *knowledge on Bigdata*, and *skills on relevent programming aspects*. My prior *experience with pharma-data* would probably help me in getting the things done easily. 
 

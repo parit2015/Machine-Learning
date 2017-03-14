@@ -23,3 +23,6 @@ kNN is subjected to be working good with *small to medium range of the dataset*,
 
     >>> kNN.classify0([0,0], dataSet, labels, 3)    # where k = 3, and inX = [0,0]
 
+## Referencs
+Brahim Chaibdraa 
+<chaib@iad.ift.ulaval.ca>

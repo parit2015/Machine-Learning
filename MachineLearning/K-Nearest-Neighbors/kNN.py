@@ -27,7 +27,12 @@ def createDataSet():
 Function name: classify0
 
 Input params: 
-inX: 
+inX:      Input data, contains value for features present.
+dataSet:  Existing dataset, excluding class/label values
+labels:   Class/label in the form of a list
+k:        Specifying the k value, to choose the nearest k neighbours
+
+Returns the class of the input data
 '''
 def classify0(inX, dataSet, labels, k):
     print "1) Converting the input-data instance into matrics form. By creating a tile of (inX, [Size of Axis-0 of dataset, 1]): \n\n", tile(inX, (dataSetSize,1)), "\n\n"
@@ -49,6 +54,7 @@ def classify0(inX, dataSet, labels, k):
     print "3) Find out the nearest k distances.\n\n"
     print "\t--> Value of sortedDistIndicies: \n\n", sortedDistIndicies, "\n\n"
     
+    # Choosing the best candidate from the k-nearest neighbours(who is having highest votes)  
     classCount = {}
     for i in range(k):
         voteIlabel = labels[sortedDistIndicies[i]]

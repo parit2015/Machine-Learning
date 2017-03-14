@@ -15,3 +15,6 @@
     
     >>> myTree
 
+## Referencs
+Brahim Chaibdraa 
+<chaib@iad.ift.ulaval.ca>

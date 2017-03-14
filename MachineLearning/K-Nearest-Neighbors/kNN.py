@@ -1,12 +1,34 @@
 from numpy import *
 import operator
 
+'''
+Function name: createDataSet
+
+Function createDataSet, creates a sample dataset.
+                        where dataset is assumed to be in following formate
+                        
+                         Features        Class       
+                         ---------------------
+                         1.0     1.1  ->   A
+                         1.0     1.0  ->   A
+                         0       0    ->   B
+                         0       0.1  ->   B
+
+
+For ease of operation of numpy and distance calculation operations, we chose to store it in the matrics way.
+'''
 def createDataSet():
-    group = array([[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]])
+    features = array([[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]])
     labels = ['A','A','B','B']
 
-    return group, labels
+    return features, labels
 
+'''
+Function name: classify0
+
+Input params: 
+inX: 
+'''
 def classify0(inX, dataSet, labels, k):
     print "1) Converting the input-data instance into matrics form. By creating a tile of (inX, [Size of Axis-0 of dataset, 1]): \n\n", tile(inX, (dataSetSize,1)), "\n\n"
     print "2) Applying euclidian distance algo to find out distance between input-data instance and provided dataset, using the formula\n\td = squareRoot((inX_0 - dataSet_0)^2  + (inX_1 - dataSet_1)^2)).\n"

@@ -5,7 +5,7 @@ import operator
 Function name: createDataSet
 
 Function createDataSet, creates a sample dataset.
-                        where dataset is assumed to be in following formate
+                        where dataset is assumed to be in following format-
                         
                          Features        Class       
                          ---------------------

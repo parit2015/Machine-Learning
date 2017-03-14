@@ -111,7 +111,9 @@ def majorityCnt(classList):
             
     return sortedClassCount[0][0]
 
-
+'''
+createTree function, will create a tree based on the tree-splitting decision 
+'''
 def createTree(dataSet,labels):
     classList = [example[-1] for example in dataSet]
     if classList.count(classList[0]) == len(classList):
@@ -133,9 +135,11 @@ def createTree(dataSet,labels):
                                                               
     return myTree
 
-
+'''
+createDataSet function, creates a sample dataset.
+'''
 def createDataSet():
-    dataSet = [[1, 1, 'yes'],
+    features = [[1, 1, 'yes'],
             [1, 1, 'yes'],
             [1, 0, 'no'],
             [0, 1, 'no'],
@@ -143,4 +147,4 @@ def createDataSet():
            
     labels = ['no surfacing','flippers']
     
-    return dataSet, labels
+    return features, labels

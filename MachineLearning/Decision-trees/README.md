@@ -1,6 +1,11 @@
 # Decision trees
 **Reference** [ https://en.wikipedia.org/wiki/Decision_tree ]
 
+# Background
+
+
+**Note:-** 
+
 ## Run in Python interactive shell
     >>> import trees
 

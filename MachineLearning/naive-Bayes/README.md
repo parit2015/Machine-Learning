@@ -21,11 +21,9 @@ Using the above formuala, probability of all the available class are calculated 
 Naive Bayes 
 
 ## Run in Python interactive shell
-    >>> 
-
-    >>> 
-
-    >>> 
+    >>>import bayes
+    
+    >>>bayes.testingNB() 
 
 ## Referencs
 Brahim Chaibdraa 

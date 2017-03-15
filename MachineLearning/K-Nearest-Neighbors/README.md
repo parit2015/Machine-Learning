@@ -1,7 +1,7 @@
 # k-Nearest Neighbors
 **Reference** [ https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm ]
 
-# Background
+## Background
 kNN belongs to one of the *classification techniques* in supervised learning. 
 
 This technique *doesn't need any separate training step* rather it takes training data in the form of existing dataset. Dataset *contains feature and its associated class/label*. 

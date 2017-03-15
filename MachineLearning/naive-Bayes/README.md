@@ -13,7 +13,7 @@ It utilizes the conditional probability formula, where we caluculate the probabi
     where,
         p(Ci|w) = Probability of getting class i, given the vector of words in our vocab
         p(Ci)   = Probability of getting class i
-        p(w|Ci) = p(w0,w1,w2..wN|Ci) = p(w0|Ci) p(w1|Ci)....p(wN|Ci) Using the Naive assumption of conditional independence
+        p(w|Ci) = p(w0,w1,w2..wN|Ci) = p(w0|Ci) p(w1|Ci)....p(wN|Ci) Using the Naive assumption
        
 Using the above formuala, probability of all the available class are calculated and compared to have a class as resultant prediction.
 

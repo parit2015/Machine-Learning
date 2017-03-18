@@ -2,7 +2,7 @@
 **Reference** [ https://en.wikipedia.org/wiki/Naive_Bayes_classifier ]
 
 # Background
-Naive Bayes one of the *fastest probablistic classification* techniques, originated from Bayes theorem. This technique leverage the conditional probability with an assumptions/restrictions on the predictors(i.e features in Classification's lingo) being *conditionaly independent*.
+Naive Bayes one of the *fastest probablistic classification* techniques, originated from Bayes theorem. This technique leverages the conditional probability formula with an assumptions on the predictors(i.e features) being *conditionaly independent*.
 
 It utilizes the conditional probability formula, where we calculate the probability of getting a class, given the vector of word as part of training step.
 

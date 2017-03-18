@@ -1,5 +1,0 @@
-
-public enum COUNTERS {
-	INVALID_RECORD_COUNT
-	
-}

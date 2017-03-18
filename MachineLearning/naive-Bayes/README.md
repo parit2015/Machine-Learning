@@ -2,9 +2,9 @@
 **Reference** [ https://en.wikipedia.org/wiki/Naive_Bayes_classifier ]
 
 # Background
-Naive Bayes one of the *fastest probablistic classification* techniques, originated from Bayes theorem. This technique leverage the conditional probability with an assumptions/restrictions on the predictors(which are basically the features in Classification's lingo) being *conditionaly independent*.
+Naive Bayes one of the *fastest probablistic classification* techniques, originated from Bayes theorem. This technique leverage the conditional probability with an assumptions/restrictions on the predictors(i.e features in Classification's lingo) being *conditionaly independent*.
 
-It utilizes the conditional probability formula, where we caluculate the probability of getting a class, given the vector of word as part of training step.
+It utilizes the conditional probability formula, where we calculate the probability of getting a class, given the vector of word as part of training step.
 
               p(w|Ci) p(Ci)
     p(Ci|w) = -------------
@@ -15,10 +15,7 @@ It utilizes the conditional probability formula, where we caluculate the probabi
         p(Ci)   = Probability of getting class i
         p(w|Ci) = p(w0,w1,w2..wN|Ci) = p(w0|Ci) p(w1|Ci)....p(wN|Ci) Using the Naive assumption
        
-Using the above formuala, probability of all the available class are calculated and compared to have a class as resultant prediction.
-
-**Note:-** 
-Naive Bayes 
+Using the above formuala, probability of all the available classes are calculated and compared to have a single class(with having highest probability) as resultant prediction.
 
 ## Run in Python interactive shell
     >>>import bayes

@@ -30,9 +30,9 @@ Optimization algorithm "Gradient Ascent"-
 3> Compare the predicted class value with the actual class value
 4> comparision get some error
 5> Use that error to move in the error direction by the mentioned "steps", using our Gradient ascent optimization algorithm
-7> Use step 5 to update the weight value
+6> Use step 5 to update the weight value
 
-6> Repeat the steps 2 - 7 till you hit the target, or the maxCycle value
+7> Repeat the steps 2 - 6 till you hit the target, or the maxCycle value
 '''
 def gradAscent(dataMatIn, classLabels):
 
@@ -77,6 +77,9 @@ def gradAscent(dataMatIn, classLabels):
 
     return weights
 
+'''
+Function to generate the plot using pyplot
+'''
 def plotBestFit(wei):
     import matplotlib.pyplot as plt
     

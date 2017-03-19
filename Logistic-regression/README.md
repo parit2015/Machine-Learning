@@ -1,4 +1,4 @@
-# Decision trees
+# Logistic Regression
 **Reference** [ https://en.wikipedia.org/wiki/Logistic_regression ]
 
 ## Background

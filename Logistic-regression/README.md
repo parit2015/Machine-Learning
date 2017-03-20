@@ -6,7 +6,7 @@ This technique is associated with word regression, which essentially means to *m
 
 The specific requirememnt of outcome as categorical value made to use *a step function* kind of probabilistic model. Following this, a similar function called *sigmoid* to be used here as a smoothened step funtion.
 
->>Sigmoid is balanced at 0, sigmoid reaches to 1 as we increase the input value, and touches 0 as we decrease the value from 0. Hence it is very *easy to classify*, i.e for sigmoid function value of *>0.5 will be classified as 1*, else 0 otherwise.
+> Sigmoid is balanced at 0, sigmoid reaches to 1 as we increase the input value, and touches 0 as we decrease the value from 0. Hence it is very *easy to classify*, i.e for sigmoid function value of *>0.5 will be classified as 1*, else 0 otherwise.
 
 Now for giving input to sigmoid funtion, we need *an optimization algorithm*, that gives best-fit points for the designated training vector. Here we use *Gradient Ascent* for finding out the weights for the training data, and update it as we move forward to our target.
 

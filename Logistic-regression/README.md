@@ -2,7 +2,7 @@
 **Reference** [ https://en.wikipedia.org/wiki/Logistic_regression ]
 
 ## Background
-This technique is associated with word regression, which essentially means to *model a best-fit line* across the feature points. In logistic regression, we take one or more predictor and give outcome as *categorical value*. Categorical value here, refers value as true/ false, or 0/1.
+This technique is associated with word regression, which essentially means to *model a best-fit line* across the feature points. In logistic regression, we take one or more predictor and give outcome(or class) as *binary categorical value*, which refers to values as true/ false, or 0/1.
 
 The specific requirememnt of outcome as categorical value made to use a probabilistic model, which can work like *a step function*. Following this, a similar function called *sigmoid* to be used here as a smoothening step funtion.
 

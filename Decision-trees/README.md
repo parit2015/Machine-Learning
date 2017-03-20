@@ -6,7 +6,7 @@ Being one of the *optimized classification* technique, decision tree *reduces th
 
 Derivation of decision points is one of the important and core process of this technique, it is also known as *splitting* across features in Decision tree lingo. *Information gain is calculated for every split* and compared to get the highest, to have the best split. This process of splitting is repeated aross the *remaining splitted dataset* recursively, till we exhaust splitting for every features.
 
-> Information gain is the *measure* of, how *easily the class/label*(in an optimized fashion) can be predicted. Information gain is calculated using the *inverse relation of it with entropy*(or magnitude of disturbance or diversity). We are using *shannon entropy calculation* formula to calculate the entropy in this technique.
+> Information gain is a *measure* of, how *easily the class/label*(in an optimized fashion) can be predicted. Information gain is calculated using the *inverse relation of it with entropy*(or magnitude of disturbance or diversity). We are using *shannon entropy calculation* formula to calculate the entropy in this technique.
 
 Once we have the *best/highest Information gain*, we do a split across the corresponding feature. Running the same process recusively will give *multiple decision points*(as the features available in the dataset) and in turn tree creation will eventually hit the leaf nodes(which certainly be the classes/labels of the dataset)
 
